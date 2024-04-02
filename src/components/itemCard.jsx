@@ -1,37 +1,17 @@
-import Data from "../../ikea.json";
-import CardTemplate from "./CardTemplate";
+import styles from "./ItemCard.module.css";
 
-const productData = Data;
-function ItemCard({ productData }) {
+function ItemCard({ data }) {
   return (
     <>
-      <CardTemplate
-        name={productData[0].nom_produit}
-        descriptif={productData[0].descriptif}
-        price={productData[0].prix}
-        couleur={productData[0].couleur}
-      />
-      <CardTemplate
-        name={productData[1].itemName}
-        descriptif={productData[1].descriptif}
-        image={productData[1].foodImage}
-        prix={productData[1].prix}
-        couleur={productData[1].couleur}
-      />
-      <CardTemplate
-        name={productData[2].itemName}
-        descriptif={productData[2].descriptif}
-        image={productData[2].foodImage}
-        prix={productData[2].prix}
-        couleur={productData[2].couleur}
-      />
-      <CardTemplate
-        name={productData[3].itemName}
-        descriptif={productData[3].descriptif}
-        image={productData[3].foodImage}
-        prix={productData[3].prix}
-        couleur={productData[3].couleur}
-      />
+      <section className={styles.container}>
+        <h2>{data.nom_produit}</h2>
+        <img src={data.image} />
+        <p className={styles.prix}> {data.prix}</p>
+        <p> {data.disponibilité}</p>
+        {/* "enstock"?{styles.dispo}:{styles.pasdispo}*/}
+        <p> {data.descriptif}</p>
+        <p> {data.couleur}</p>
+      </section>
     </>
   );
 }

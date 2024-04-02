@@ -1,0 +1,19 @@
+.container {
+  border: solid 2px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 1em;
+}
+
+.prix {
+  font-weight: bold;
+}
+
+.dispo {
+  color: green;
+}
+
+.pasdispo {
+  color: red;
+}
