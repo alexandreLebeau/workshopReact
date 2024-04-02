@@ -1,10 +1,14 @@
+import React from 'react';
+import Navbar from './components/NavBar'; 
+import '../src/app.css'
 import data from "../ikea.json";
-
-import "./App.css";
-
 function App() {
-  console.log(data);
-  return <></>;
+  return (
+    <div>
+      <Navbar />
+      {/* Autres composants et contenu de l'application */}
+    </div>
+  );
 }
 
 export default App;
