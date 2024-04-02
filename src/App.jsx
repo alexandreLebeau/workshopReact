@@ -3,6 +3,8 @@
 // import FilterColor from "./components/FilterColor";
 import "./App.css";
 import FilterPrice from "./components/FilterPrice";
+import ItemCard from "./components/ItemCard";
+import Data from "../ikea.json";
 
 function App() {
   return (
@@ -39,12 +41,7 @@ function App() {
       </div>
       <div className="cards">
         {/* Ajouter ici l'appel de la fonction ItemCard */}
-        <p className="productCard">Produit 1</p>
-        <p className="productCard">Produit 2</p>
-        <p className="productCard">Produit 3</p>
-        <p className="productCard">Produit 4</p>
-        <p className="productCard">Produit 5</p>
-        <p className="productCard">Produit 6</p>
+        <ItemCard Data={Data} />
       </div>
       <footer>
         <div class="footer">
