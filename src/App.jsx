@@ -1,16 +1,20 @@
 import { useState } from "react";
-import "./App.css";
 import data from "../ikea.json";
-import ItemCard from "./components/ItemCard";
-import React from 'react';
-import Navbar from './components/NavBar'; 
-import '../src/app.css'
+import Navbar from "./components/NavBar";
+import ItemList from "./components/ItemList";
+import "../src/App.css";
 
 function App() {
+  const [arrayOfFurnituresFiltered, setArrayOfFurnituresFiltered] =
+    useState(data);
+
   return (
     <>
-     <Navbar />
-      <ItemCard data={data[0]} />
+      <Navbar
+        data={data}
+        setArrayOfFurnituresFiltered={setArrayOfFurnituresFiltered}
+      />
+      <ItemList data={arrayOfFurnituresFiltered} />
     </>
   );
 }

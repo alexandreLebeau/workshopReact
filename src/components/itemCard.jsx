@@ -1,20 +1,19 @@
 import styles from "./ItemCard.module.css";
 
-function ItemCard({ data }) {
+function ItemCard({ furniture }) {
   return (
     <>
       <section className={styles.container}>
-        <h2>{data.nom_produit}</h2>
-        <img src={data.image} />
-        <p className={styles.prix}> {data.prix}</p>
-        <p> {data.disponibilité}</p>
+        <h2>{furniture.nom_produit}</h2>
+        <img src={furniture.image} />
+        <p className={styles.prix}> {furniture.prix}</p>
+        <p> {furniture.disponibilité}</p>
         {/* "enstock"?{styles.dispo}:{styles.pasdispo}*/}
-        <p> {data.descriptif}</p>
-        <p> {data.couleur}</p>
+        <p> {furniture.descriptif}</p>
+        <p> {furniture.couleur}</p>
       </section>
     </>
   );
 }
 
 export default ItemCard;
-
