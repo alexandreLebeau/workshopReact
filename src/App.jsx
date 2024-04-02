@@ -1,13 +1,17 @@
+import { useState } from "react";
+import "./App.css";
+import data from "../ikea.json";
+import ItemCard from "./components/ItemCard";
 import React from 'react';
 import Navbar from './components/NavBar'; 
 import '../src/app.css'
-import data from "../ikea.json";
+
 function App() {
   return (
-    <div>
-      <Navbar />
-      {/* Autres composants et contenu de l'application */}
-    </div>
+    <>
+     <Navbar />
+      <ItemCard data={data[0]} />
+    </>
   );
 }
 
