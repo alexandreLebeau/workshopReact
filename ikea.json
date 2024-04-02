@@ -1,0 +1,142 @@
+[
+  {
+    "nom_produit": "Étagère Billy",
+    "prix": 49.99,
+    "disponibilité": "En stock",
+    "descriptif": "Étagère pratique et polyvalente pour ranger vos livres et objets de décoration. Facile à monter.",
+    "couleur": "Blanc"
+  },
+  {
+    "nom_produit": "Canapé Ektorp",
+    "prix": 399.99,
+    "disponibilité": "En rupture de stock",
+    "descriptif": "Canapé confortable avec housse lavable en machine. Idéal pour les familles.",
+    "couleur": "Gris clair"
+  },
+  {
+    "nom_produit": "Table Lack",
+    "prix": 19.99,
+    "disponibilité": "En stock",
+    "descriptif": "Table basse simple et élégante, parfaite pour le salon. Facile à nettoyer.",
+    "couleur": "Noir"
+  },
+  {
+    "nom_produit": "Chaise Stefan",
+    "prix": 29.99,
+    "disponibilité": "En stock",
+    "descriptif": "Chaise en bois massif avec assise confortable. Convient à tous les styles de décoration.",
+    "couleur": "Naturel"
+  },
+  {
+    "nom_produit": "Armoire Pax",
+    "prix": 199.99,
+    "disponibilité": "En stock",
+    "descriptif": "Armoire modulable avec de nombreuses options de rangement. Personnalisable selon vos besoins.",
+    "couleur": "Blanc"
+  },
+  {
+    "nom_produit": "Lit Malm",
+    "prix": 149.99,
+    "disponibilité": "En stock",
+    "descriptif": "Lit avec rangement intégré. Design moderne et fonctionnel.",
+    "couleur": "Blanc"
+  },
+  {
+    "nom_produit": "Bureau Micke",
+    "prix": 79.99,
+    "disponibilité": "En stock",
+    "descriptif": "Bureau compact avec rangements intégrés. Parfait pour les petits espaces.",
+    "couleur": "Blanc"
+  },
+  {
+    "nom_produit": "Étagère Kallax",
+    "prix": 69.99,
+    "disponibilité": "En stock",
+    "descriptif": "Étagère modulable idéale pour le rangement dans toutes les pièces de la maison.",
+    "couleur": "Blanc"
+  },
+  {
+    "nom_produit": "Sofa Beddinge",
+    "prix": 299.99,
+    "disponibilité": "En stock",
+    "descriptif": "Canapé-lit confortable avec housse lavable. Parfait pour les invités.",
+    "couleur": "Gris foncé"
+  },
+  {
+    "nom_produit": "Table Ingatorp",
+    "prix": 179.99,
+    "disponibilité": "En stock",
+    "descriptif": "Table extensible pouvant accueillir jusqu'à 6 personnes. Design classique.",
+    "couleur": "Blanc"
+  },
+  {
+    "nom_produit": "Fauteuil Poäng",
+    "prix": 129.99,
+    "disponibilité": "En stock",
+    "descriptif": "Fauteuil confortable avec structure en bois cintré. Disponible en plusieurs couleurs.",
+    "couleur": "Birch veneer/Hillared anthracite"
+  },
+  {
+    "nom_produit": "Cuisine Kungsbacka",
+    "prix": 1999.99,
+    "disponibilité": "En stock",
+    "descriptif": "Cuisine moderne et élégante avec façades en plastique recyclé. Comprend tous les éléments nécessaires.",
+    "couleur": "Gris anthracite"
+  },
+  {
+    "nom_produit": "Meuble TV Bestå",
+    "prix": 149.99,
+    "disponibilité": "En stock",
+    "descriptif": "Meuble TV élégant avec rangements intégrés. S'adapte à différents styles de décoration.",
+    "couleur": "Blanc"
+  },
+  {
+    "nom_produit": "Lampe Riggad",
+    "prix": 39.99,
+    "disponibilité": "En stock",
+    "descriptif": "Lampe de bureau LED avec chargeur sans fil intégré. Design moderne et fonctionnel.",
+    "couleur": "Blanc"
+  },
+  {
+    "nom_produit": "Canapé Friheten",
+    "prix": 599.99,
+    "disponibilité": "En stock",
+    "descriptif": "Canapé d'angle convertible avec espace de rangement. Parfait pour les petits espaces.",
+    "couleur": "Beige"
+  },
+  {
+    "nom_produit": "Bibliothèque Billy",
+    "prix": 69.99,
+    "disponibilité": "En stock",
+    "descriptif": "Bibliothèque modulable avec étagères réglables. Disponible en plusieurs couleurs.",
+    "couleur": "Blanc"
+  },
+  {
+    "nom_produit": "Tapis Adum",
+    "prix": 79.99,
+    "disponibilité": "En stock",
+    "descriptif": "Tapis moelleux et confortable pour le salon ou la chambre à coucher. Disponible en différentes tailles.",
+    "couleur": "Gris"
+  },
+  {
+    "nom_produit": "Chaise Odger",
+    "prix": 79.99,
+    "disponibilité": "En stock",
+    "descriptif": "Chaise durable et confortable avec assise en plastique recyclé. Design moderne.",
+    "couleur": "Beige"
+  },
+  {
+    "nom_produit": "Étagère Billy/Oxberg",
+    "prix": 89.99,
+    "disponibilité": "En stock",
+    "descriptif": "Étagère avec portes vitrées pour protéger vos livres de la poussière. Pratique et élégante.",
+    "couleur": "Blanc"
+  },
+  {
+    "nom_produit": "Lit Hemnes",
+    "prix": 199.99,
+    "disponibilité": "En stock",
+    "descriptif": "Lit double en bois massif avec tête de lit intégrée. Design intemporel.",
+    "couleur": "Blanc"
+  }
+]
