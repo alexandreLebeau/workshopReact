@@ -1,0 +1,22 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+}
+
+.navItem {
+  margin: 0 10px;
+}
+
+.searchInput {
+  padding: 5px;
+}
+
+.searchButton {
+  padding: 5px 10px;
+  background-color: #555;
+  color: white;
+  border: none;
+}
