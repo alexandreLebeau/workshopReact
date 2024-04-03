@@ -14,7 +14,9 @@ function App() {
         data={data}
         setArrayOfFurnituresFiltered={setArrayOfFurnituresFiltered}
       />
-      <ItemList data={arrayOfFurnituresFiltered} />
+      <div className="productsList">
+        <ItemList data={arrayOfFurnituresFiltered} />
+      </div>
     </>
   );
 }

@@ -5,11 +5,11 @@ function ItemCard({ furniture }) {
     <>
       <section className={styles.container}>
         <h2>{furniture.nom_produit}</h2>
-        <img src={furniture.image} />
+        <img className="imgFurniture" src={furniture.image} />
         <p className={styles.prix}> {furniture.prix}</p>
         <p> {furniture.disponibilité}</p>
         {/* "enstock"?{styles.dispo}:{styles.pasdispo}*/}
-        <p> {furniture.descriptif}</p>
+        <p className="descriptionProduit"> {furniture.descriptif}</p>
         <p> {furniture.couleur}</p>
       </section>
     </>

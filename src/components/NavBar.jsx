@@ -13,6 +13,9 @@ function Navbar({ data, setArrayOfFurnituresFiltered }) {
   return (
     <>
       <nav className="navbar">
+        <div className="logo">
+          <img src="https://genaehtesholz.files.wordpress.com/2019/03/aeki-logo.jpg"></img>
+        </div>
         <div className="Home">
           <a href="#" className="navbar-item">
             Home
@@ -23,16 +26,30 @@ function Navbar({ data, setArrayOfFurnituresFiltered }) {
             Products
           </a>
         </div>
-        <div className="Search">
+
+        <div class="form__group field">
+          <input
+            type="input"
+            onChange={handleFilter}
+            class="form__field"
+            placeholder="Search"
+            id="name"
+            required
+          />
+          <label for="name" class="form__label">
+            Search
+          </label>
+        </div>
+
+        {/* <div className="Search">
           <form action="/search" method="GET">
             <input
               type="text"
-              onChange={handleFilter}
               name="q"
               placeholder="what are you looking for?"
             />
           </form>
-        </div>
+        </div> */}
       </nav>
     </>
   );

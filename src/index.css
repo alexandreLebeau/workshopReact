@@ -54,6 +54,26 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.imgFurniture {
+  width: 200px;
+  margin: auto;
+}
+.productsList {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.descriptionProduit {
+  max-width: 40%;
+}
+.logo {
+  width: 50px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
