@@ -71,7 +71,7 @@ button:focus-visible {
   max-width: 40%;
 }
 .logo {
-  width: 50px;
+  width: 80px;
 }
 
 @media (prefers-color-scheme: light) {
