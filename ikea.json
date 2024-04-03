@@ -49,6 +49,7 @@
   },
   {
     "nom_produit": "Bureau Micke",
+    "image":"./src/images/Bureau Micke.jpg" ,
     "prix": 79.99,
     "disponibilité": true,
     "descriptif": "Bureau compact avec rangements intégrés. Parfait pour les petits espaces.",
@@ -56,6 +57,7 @@
   },
   {
     "nom_produit": "Étagère Kallax",
+    "image":"./src/images/Étagère Kallax.jpg",
     "prix": 69.99,
     "disponibilité": false,
     "descriptif": "Étagère modulable idéale pour le rangement dans toutes les pièces de la maison.",
@@ -63,6 +65,7 @@
   },
   {
     "nom_produit": "Sofa Beddinge",
+    "image":"./src/images/Sofa Beddinge.jpg",
     "prix": 299.99,
     "disponibilité": true,
     "descriptif": "Canapé-lit confortable avec housse lavable. Parfait pour les invités.",
@@ -70,6 +73,7 @@
   },
   {
     "nom_produit": "Table Ingatorp",
+    "image":"./src/images/Table Ingatorp.jpg",
     "prix": 179.99,
     "disponibilité": true,
     "descriptif": "Table extensible pouvant accueillir jusqu'à 6 personnes. Design classique.",
@@ -77,6 +81,7 @@
   },
   {
     "nom_produit": "Fauteuil Poäng",
+    "image":"./src/images/Fauteuil Poäng.jpg",
     "prix": 129.99,
     "disponibilité": true,
     "descriptif": "Fauteuil confortable avec structure en bois cintré. Disponible en plusieurs couleurs.",
@@ -84,6 +89,7 @@
   },
   {
     "nom_produit": "Cuisine Kungsbacka",
+    "image":"https://www.cuisinity.com/wp-content/uploads/2018/05/ikea-cuisine-kungsbacka-eco-responsable-900x574.png",
     "prix": 1999.99,
     "disponibilité": true,
     "descriptif": "Cuisine moderne et élégante avec façades en plastique recyclé. Comprend tous les éléments nécessaires.",
@@ -91,6 +97,7 @@
   },
   {
     "nom_produit": "Meuble TV Bestå",
+    "image":"./src/images/Meuble TV Bestå.jpg",
     "prix": 149.99,
     "disponibilité": false,
     "descriptif": "Meuble TV élégant avec rangements intégrés. S'adapte à différents styles de décoration.",
@@ -98,6 +105,7 @@
   },
   {
     "nom_produit": "Lampe Riggad",
+    "image":"./src/images/Lampe Riggad.jpg",
     "prix": 39.99,
     "disponibilité": true,
     "descriptif": "Lampe de bureau LED avec chargeur sans fil intégré. Design moderne et fonctionnel.",
@@ -105,6 +113,7 @@
   },
   {
     "nom_produit": "Canapé Friheten",
+    "image":"./src/images/Canapé Friheten.jpg",
     "prix": 599.99,
     "disponibilité": true,
     "descriptif": "Canapé d'angle convertible avec espace de rangement. Parfait pour les petits espaces.",
@@ -112,6 +121,7 @@
   },
   {
     "nom_produit": "Bibliothèque Billy",
+    "image":"./src/images/Bibliothèque Billy.jpg",
     "prix": 69.99,
     "disponibilité": true,
     "descriptif": "Bibliothèque modulable avec étagères réglables. Disponible en plusieurs couleurs.",
@@ -119,6 +129,7 @@
   },
   {
     "nom_produit": "Tapis Adum",
+    "image":"./src/images/Tapis Adum.jpg",
     "prix": 79.99,
     "disponibilité": true,
     "descriptif": "Tapis moelleux et confortable pour le salon ou la chambre à coucher. Disponible en différentes tailles.",
@@ -126,6 +137,7 @@
   },
   {
     "nom_produit": "Chaise Odger",
+    "image":"./src/images/Chaise Odger.jpg",
     "prix": 79.99,
     "disponibilité": true,
     "descriptif": "Chaise durable et confortable avec assise en plastique recyclé. Design moderne.",
@@ -133,6 +145,7 @@
   },
   {
     "nom_produit": "Étagère Billy/Oxberg",
+    "image":"./src/images/Étagère Billy Oxberg.jpg",
     "prix": 89.99,
     "disponibilité": false,
     "descriptif": "Étagère avec portes vitrées pour protéger vos livres de la poussière. Pratique et élégante.",
@@ -140,6 +153,7 @@
   },
   {
     "nom_produit": "Lit Hemnes",
+    "image":"https://www.ikea.com/fr/fr/images/products/hemnes-lit-banquette-2-places-structure-blanc__1180454_pe896328_s5.jpg?f=s" ,
     "prix": 199.99,
     "disponibilité": false,
     "descriptif": "Lit double en bois massif avec tête de lit intégrée. Design intemporel.",

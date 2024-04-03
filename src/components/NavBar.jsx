@@ -14,10 +14,8 @@ function Navbar({ data, setArrayOfFurnituresFiltered }) {
     <>
       <nav className="navbar">
         <div>
-          <img
-            src="https://genaehtesholz.files.wordpress.com/2019/03/aeki-logo.jpg"
-            className="logo"
-          ></img>
+          <img  className="logo" src="https://genaehtesholz.files.wordpress.com/2019/03/aeki-logo.jpg"></img>
+
         </div>
         <div className="Home">
           <a href="#" className="navbar-item">
