@@ -6,9 +6,14 @@ function ItemCard({ furniture }) {
       <section className={styles.container}>
         <h2>{furniture.nom_produit}</h2>
         <img className="imgFurniture" src={furniture.image} />
-        <p className={styles.prix}> {furniture.prix}</p>
-        <p> {furniture.disponibilité}</p>
-        {/* "enstock"?{styles.dispo}:{styles.pasdispo}*/}
+        <p className={styles.prix}> {furniture.prix} €</p>
+
+        <div
+          className={furniture.disponibilité ? styles.dispo : styles.pasdispo}
+        >
+          {furniture.disponibilité ? "Disponible" : "Pas disponible"}
+        </div>
+
         <p className="descriptionProduit"> {furniture.descriptif}</p>
         <p> {furniture.couleur}</p>
       </section>

@@ -5,7 +5,7 @@ function Navbar({ data, setArrayOfFurnituresFiltered }) {
     const value = event.target.value;
 
     const filtered = data.filter((furniture) =>
-      furniture.nom_produit.includes(value)
+      furniture.nom_produit.toLowerCase().includes(value)
     );
     setArrayOfFurnituresFiltered(filtered);
   };
@@ -15,6 +15,7 @@ function Navbar({ data, setArrayOfFurnituresFiltered }) {
       <nav className="navbar">
         <div>
           <img  className="logo" src="https://genaehtesholz.files.wordpress.com/2019/03/aeki-logo.jpg"></img>
+
         </div>
         <div className="Home">
           <a href="#" className="navbar-item">
@@ -40,16 +41,6 @@ function Navbar({ data, setArrayOfFurnituresFiltered }) {
             Search
           </label>
         </div>
-
-        {/* <div className="Search">
-          <form action="/search" method="GET">
-            <input
-              type="text"
-              name="q"
-              placeholder="what are you looking for?"
-            />
-          </form>
-        </div> */}
       </nav>
     </>
   );
